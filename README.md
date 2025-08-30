@@ -5,7 +5,7 @@ The goal is to extract, analyze, and visualize **annual CO₂ emissions** for sh
 
 ---
 
-## 📌 Project Overview
+## Overview
 - Process official EMSA MRV Excel files (2018–2024).
 - Compute **annual total CO₂ emissions** across all reported ships.
 - Save results in clean CSV format for reproducibility.
@@ -14,7 +14,7 @@ The goal is to extract, analyze, and visualize **annual CO₂ emissions** for sh
 
 ---
 
-## 📂 Project Structure
+## Structure
 EU-MRV-Analytics/
 │
 ├── data/ # Raw EMSA MRV Excel files (2018–2024)
@@ -26,15 +26,15 @@ EU-MRV-Analytics/
 
 ---
 
-## ⚙️ Installation
+## Installation
 1. Clone the repository:
-   ```bash
+  
    git clone https://github.com/<your-username>/EU-MRV-Analytics.git
    cd EU-MRV-Analytics
 Install dependencies:
 
 bash
-Copy code
+
 pip install -r requirements.txt
 ▶️ Usage
 Place your EMSA MRV Excel files (2018–2024) into the data/ folder.
@@ -50,8 +50,7 @@ Example filenames:
 
 Run the analysis script:
 
-bash
-Copy code
+
 python scripts/compute_mrv_co2.py
 Check the results/ folder for:
 
@@ -91,8 +90,7 @@ matplotlib
 
 Install via:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 🔬 Research Context
 This repository is part of the AegisApollo framework:
