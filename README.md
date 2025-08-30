@@ -15,6 +15,13 @@ Generate publication-quality visualizations for academic papers.
 
 Designed with large-scale Excel handling in mind (memory-efficient).
 
+## Features
+-------------------------
+- Extracts **total CO₂ emissions** per year from EMSA Excel files.
+- Saves results into a clean CSV (`EU_MRV_CO2_Totals.csv`).
+- Produces a publication-quality plot (`EU_MRV_CO2_Trends.png`).
+- Designed for **large Excel files** using memory-efficient streaming.
+
 📂  Structure
 --------------------
 EU-MRV-Analytics/
